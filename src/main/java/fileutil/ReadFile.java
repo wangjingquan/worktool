@@ -36,5 +36,6 @@ public class ReadFile {
   }
   public String bufferedRead(String fileName) throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
+    return "";
   }
 }
